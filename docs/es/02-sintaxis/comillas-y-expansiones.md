@@ -41,14 +41,22 @@ printf '<%s>\n' $name
 **Ejemplo**
 ```bash
 report=weekly
-printf '%s\n' "${report}.txt" "${suffix:-default}"
+suffix=''
+printf '%s\n' "${report}${suffix:-.txt}" "${report}${suffix-.txt}"
 ```
 
-**Cómo funciona:** Las llaves delimitan el nombre del parámetro. `${nombre:-alternativa}` usa el valor alternativo si el parámetro no está definido o está vacío. La variable conserva su estado.
+**Cómo funciona:** Las llaves delimitan el nombre del parámetro. Una variable vacía tiene un valor asignado (`''`). Una variable sin definir carece de valor. Como `suffix` está vacío, el ejemplo imprime `weekly.txt` con `:-` y `weekly` con `-`.
 
 **Cuándo usarlo:** Define valores predeterminados para ajustes opcionales o construye un nombre de archivo.
 
-**Importante:** `${nombre-alternativa}` solo usa el valor alternativo si la variable no está definida. Pon la expansión entre comillas en comandos ordinarios.
+| Forma | Cuándo interviene | Efecto |
+| --- | --- | --- |
+| `${name-fallback}` | Sin definir | Sustituye el valor durante la expansión. |
+| `${name:-fallback}` | Sin definir o vacío | Sustituye el valor durante la expansión. |
+| `${name:=fallback}` | Sin definir o vacío | Guarda el valor alternativo en la variable y lo expande. |
+| `${name:?message}` | Sin definir o vacío | Escribe el mensaje en la salida de error y termina el script si Bash no es interactivo. |
+
+**Importante:** Las dos primeras formas dejan intacta la variable. Pon la expansión entre comillas en comandos ordinarios.
 
 ## Sustitución de comandos
 
@@ -70,6 +78,8 @@ printf '[%s]\n' "$value"
 **Cuándo usarlo:** Captura un resultado breve como una fecha, un recuento o una etiqueta generada.
 
 **Importante:** Pon `"$(comando)"` entre comillas al usar el resultado como argumento. Las cadenas de Bash no pueden representar bytes NUL. Usa un archivo o un flujo para datos binarios.
+
+Si necesitas pasar la salida como si fuera un archivo, consulta la [sustitución de procesos](../apendice/sustitucion-de-procesos.md).
 
 ## Expansión aritmética
 

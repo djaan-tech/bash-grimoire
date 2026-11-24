@@ -18,16 +18,20 @@ items=(first "second item")
 **Example**
 ```bash
 files=('annual report.txt' 'budget.txt')
+files[4]='meeting notes.txt'
 for file in "${files[@]}"; do
   printf '%s\n' "$file"
 done
+printf 'Index: %s\n' "${!files[@]}"
 ```
 
-**How it works:** Bash stores each assignment word separately. `"${items[@]}"` expands to one word per element and `"${#items[@]}"` gives the number of elements.
+**How it works:** `"${files[@]}"` keeps each filename as one argument, including names with spaces. `"${!files[@]}"` expands the assigned indices, here `0`, `1` and `4`. `${#files[@]}` counts the three elements.
 
 **When to use it:** Build an argument list or store filenames without losing their boundaries.
 
-**Important:** Indices can have gaps. Use `"${!items[@]}"` to expand the indices. POSIX `sh` has no Bash-style arrays.
+**Important:** Indices `2` and `3` are unassigned. Iterate over the existing indices with `"${!files[@]}"`. The element count can be smaller than the highest index. POSIX `sh` has no Bash-style arrays.
+
+`"${files[*]}"` joins the values into one argument using [the same separator rules as `"$*"`](arguments.md#forward-or-join-arguments).
 
 ## Associative arrays
 
@@ -43,10 +47,10 @@ map[key]=value
 **Example**
 ```bash
 declare -A formats=([report]=csv [image]=png)
-printf '%s\n' "${formats[report]}"
+printf '%s\n' "${formats[report]}" "${formats[archive]-unknown}"
 ```
 
-**How it works:** `declare -A` tells Bash to interpret subscripts as keys. `"${map[key]}"` retrieves the value for the key `key`.
+**How it works:** `declare -A` tells Bash to interpret subscripts as keys. The example prints `csv` for `report` and `unknown` for the missing `archive` key. [Expansion with a fallback](quoting-and-expansions.md#parameter-expansion) also works with array elements.
 
 **When to use it:** Map known configuration keys to values or modes to extensions.
 

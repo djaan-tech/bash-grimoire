@@ -60,7 +60,24 @@ fi
 
 **Cuándo usarlo:** Comprueba el tipo de un archivo, compara texto o valida un formato con `=~`.
 
-**Importante:** Pon el lado derecho de `==` entre comillas para comparar literalmente. Con `=~`, las comillas hacen literal la parte que encierran. POSIX `sh` usa pruebas como `[ -f "$path" ]`.
+**Importante:** Pon el lado derecho de `==` entre comillas para comparar literalmente. POSIX `sh` usa pruebas como `[ -f "$path" ]`.
+
+## Patrones y expresiones regulares
+
+`[[ $name == *.log ]]` comprueba el sufijo con un patrón de Bash. Usa `=~` con una expresión regular extendida si necesitas validar una estructura y extraer partes.
+
+**Ejemplo**
+```bash
+name=job-074.log
+regex='^job-([0-9]+)[.]log$'
+if [[ $name =~ $regex ]]; then
+  printf 'Job: %s\n' "${BASH_REMATCH[1]}"
+fi
+```
+
+**Cómo funciona:** `^` y `$` delimitan el nombre completo. `[.]` representa un punto literal y `([0-9]+)` captura uno o más dígitos. Bash guarda la coincidencia completa en `BASH_REMATCH[0]` y el grupo en `BASH_REMATCH[1]`. El ejemplo imprime `Job: 074`.
+
+**Importante:** Guarda el patrón en una variable y expándela sin comillas a la derecha de `=~`. Si pones `"$regex"`, Bash interpreta el patrón como texto literal. La prueba devuelve `0` si coincide, `1` si no coincide y `2` si la expresión no es válida.
 
 ## Cadenas y números
 

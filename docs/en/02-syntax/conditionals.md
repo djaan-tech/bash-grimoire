@@ -60,7 +60,24 @@ fi
 
 **When to use it:** Test a file type, compare text or validate a format with `=~`.
 
-**Important:** Quote the right side of `==` for a literal comparison. With `=~`, quoting a portion makes that portion literal. POSIX `sh` uses tests such as `[ -f "$path" ]`.
+**Important:** Quote the right side of `==` for a literal comparison. POSIX `sh` uses tests such as `[ -f "$path" ]`.
+
+## Globs and regular expressions
+
+`[[ $name == *.log ]]` uses a shell pattern to test the suffix. Use `=~` with an extended regular expression to validate a structure and extract parts of it.
+
+**Example**
+```bash
+name=job-074.log
+regex='^job-([0-9]+)[.]log$'
+if [[ $name =~ $regex ]]; then
+  printf 'Job: %s\n' "${BASH_REMATCH[1]}"
+fi
+```
+
+**How it works:** `^` and `$` anchor the whole name. `[.]` matches a literal dot and `([0-9]+)` captures one or more digits. Bash stores the full match in `BASH_REMATCH[0]` and the group in `BASH_REMATCH[1]`. The example prints `Job: 074`.
+
+**Important:** Store the pattern in a variable and expand it unquoted on the right of `=~`. Quoting `"$regex"` makes Bash treat the pattern as literal text. The test returns `0` for a match, `1` for no match and `2` for an invalid expression.
 
 ## Strings and numbers
 

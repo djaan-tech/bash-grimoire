@@ -41,14 +41,22 @@ printf '<%s>\n' $name
 **Example**
 ```bash
 report=weekly
-printf '%s\n' "${report}.txt" "${suffix:-default}"
+suffix=''
+printf '%s\n' "${report}${suffix:-.txt}" "${report}${suffix-.txt}"
 ```
 
-**How it works:** Bash uses braces to mark where the parameter name ends. `${name:-fallback}` expands to the fallback when the parameter is unset or empty. It leaves the variable as it was.
+**How it works:** Braces mark where the parameter name ends. An empty variable has a value (`''`). An unset variable has no value. Since `suffix` is empty, the example prints `weekly.txt` with `:-` and `weekly` with `-`.
 
 **When to use it:** Supply defaults for optional settings or build a filename.
 
-**Important:** `${name-fallback}` uses the fallback only when the variable is unset. Quote the expansion in ordinary commands.
+| Form | When it applies | Effect |
+| --- | --- | --- |
+| `${name-fallback}` | Unset | Uses the fallback in the expansion. |
+| `${name:-fallback}` | Unset or empty | Uses the fallback in the expansion. |
+| `${name:=fallback}` | Unset or empty | Assigns the fallback to the variable and expands it. |
+| `${name:?message}` | Unset or empty | Writes the message to standard error and exits if Bash is noninteractive. |
+
+**Important:** The first two forms leave the variable unchanged. Quote the expansion in ordinary commands.
 
 ## Command substitution
 
@@ -70,6 +78,8 @@ printf '[%s]\n' "$value"
 **When to use it:** Capture a short result such as a date, a count or a generated label.
 
 **Important:** Quote `"$(command)"` when using the result as an argument. Bash strings cannot represent NUL bytes. Use a file or a stream for binary data.
+
+To pass output as if it were a file, see [process substitution](../appendix/process-substitution.md).
 
 ## Arithmetic expansion
 

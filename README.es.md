@@ -38,6 +38,10 @@ Cada ficha reúne una definición, un ejemplo y el motivo por el que funciona. C
 - [Guía de estilo de shell de Google](https://google.github.io/styleguide/shellguide.html)
 - [ShellCheck](https://www.shellcheck.net/)
 
+## Lectura complementaria
+
+- Valentine G. Nachi, [Bash Scripting Handbook](https://bashhandbook.com/). La vista previa incluye fundamentos, comandos internos y arrays.
+
 ## Contribuir
 
 Edita primero la versión inglesa y actualiza la española en la misma propuesta. Mantén las fichas breves y conserva la equivalencia de los ejemplos y los enlaces entre idiomas. Para cambios en scripts, ejecuta `bash -n`, usa ShellCheck si está disponible y prueba tanto el éxito como los errores con datos temporales.

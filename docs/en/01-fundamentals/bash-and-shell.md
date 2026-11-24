@@ -33,19 +33,21 @@ An external program is a separate executable.
 **Syntax**
 ```bash
 type -t name
+type -a name
 command -v name
 ```
 
 **Example**
 ```bash
 type -t printf
+type -a printf
 command -v df
 ```
 
-**How it works:** `type -t` reports a command’s kind. `command -v` reports how Bash would resolve a name. For a simple name after parsing and alias expansion, Bash normally checks functions, then builtins, then `PATH`.
+**How it works:** `type -t printf` reports `builtin` in a shell where the name has not been redefined. `type -a printf` also lists executables with that name on `PATH`. After expanding aliases, Bash normally checks functions, then builtins, then `PATH`.
 
-**When to use it:** Check which implementation a script will invoke. Use `builtin printf` to select the Bash builtin explicitly.
+**When to use it:** Use `command -v` in a script to check whether Bash can resolve a name. It returns a nonzero status if the name is missing. Use `type -a` when investigating why a particular implementation runs.
 
-**Important:** Commands such as `printf` and `kill` can have both implementations.
+**Important:** `help printf` documents the builtin and `builtin printf` selects it explicitly. Other names, such as `kill`, can also have both forms.
 
 [Bash command search](https://www.gnu.org/software/bash/manual/html_node/Command-Search-and-Execution.html)

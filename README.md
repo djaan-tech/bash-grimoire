@@ -38,6 +38,10 @@ Each card gives a definition, an example and the reason it works. Check what Bas
 - [Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
 - [ShellCheck](https://www.shellcheck.net/)
 
+## Further reading
+
+- Valentine G. Nachi, [Bash Scripting Handbook](https://bashhandbook.com/). The preview covers fundamentals, builtins and arrays.
+
 ## Contributing
 
 Edit the English source first and update the Spanish version in the same contribution. Keep cards brief and preserve equivalent examples and language links. For script changes, run `bash -n`, use ShellCheck when available and test both success and failure with temporary data.

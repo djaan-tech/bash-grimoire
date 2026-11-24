@@ -32,19 +32,21 @@ Un programa externo es un ejecutable independiente.
 **Sintaxis**
 ```bash
 type -t name
+type -a name
 command -v name
 ```
 
 **Ejemplo**
 ```bash
 type -t printf
+type -a printf
 command -v df
 ```
 
-**Cómo funciona:** `type -t` indica el tipo de comando. `command -v` muestra cómo resolvería Bash el nombre. Tras el análisis y la expansión de alias, para un nombre simple Bash suele buscar primero funciones, después comandos internos y por último en `PATH`.
+**Cómo funciona:** `type -t printf` muestra `builtin` en una sesión sin redefiniciones. `type -a printf` también lista los ejecutables con ese nombre que encuentra en `PATH`. Tras expandir los alias, Bash suele buscar primero funciones, después comandos internos y por último en `PATH`.
 
-**Cuándo usarlo:** Comprueba qué implementación usará un script. Utiliza `builtin printf` para elegir expresamente el comando interno de Bash.
+**Cuándo usarlo:** Usa `command -v` para comprobar desde un script si Bash puede resolver un nombre. Devuelve un código distinto de cero si no lo encuentra. Usa `type -a` al investigar por qué se ejecuta una implementación determinada.
 
-**Importante:** Comandos como `printf` y `kill` pueden tener ambas implementaciones.
+**Importante:** `help printf` documenta el comando interno y `builtin printf` lo selecciona expresamente. Otros nombres, como `kill`, también pueden tener una versión interna y otra externa.
 
 [Búsqueda de comandos en Bash](https://www.gnu.org/software/bash/manual/html_node/Command-Search-and-Execution.html)
