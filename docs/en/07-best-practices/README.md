@@ -1,0 +1,10 @@
+# Best practices
+
+[**English**](README.md) | [Español](../../es/07-buenas-practicas/README.md)
+
+[Handbook home](../../../README.md)
+
+Write scripts with predictable inputs and clear failure paths.
+
+- [Security](security.md)
+- [Maintainability](maintainability.md)

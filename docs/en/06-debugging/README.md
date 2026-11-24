@@ -1,0 +1,10 @@
+# Debugging
+
+[**English**](README.md) | [Español](../../es/06-depuracion/README.md)
+
+[Handbook home](../../../README.md)
+
+Check syntax, trace expansions and diagnose common failures.
+
+- [Debugging Bash](debugging-bash.md)
+- [Common errors](common-errors.md)
