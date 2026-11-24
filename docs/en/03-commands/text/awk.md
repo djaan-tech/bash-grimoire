@@ -1,4 +1,18 @@
-# awk — Process records and fields
+<!-- awk — Process records and fields -->
+<a name="awk--process-records-and-fields"></a>
+
+```text
+╔═════════════════════════════╗
+║  █████  ██     ██ ██   ██   ║
+║ ██ ░░██░██░░   ██░██░░██ ░░ ║
+║ ███████░██░░█  ██░█████ ░░  ║
+║ ██░░░██░██░███░██░██░░██░   ║
+║ ██░░ ██░░███ ███ ░██░░ ██░  ║
+║   ░░   ░░  ░░░ ░░░  ░░   ░░ ║
+╚═════════════════════════════╝
+```
+
+*Process records and fields*
 
 [**English**](awk.md) | [Español](../../../es/03-comandos/texto/awk.md)
 

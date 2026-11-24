@@ -1,4 +1,18 @@
-# du — Estimate space used by paths
+<!-- du — Estimate space used by paths -->
+<a name="du--estimate-space-used-by-paths"></a>
+
+```text
+╔════════════════════╗
+║ ██████  ██    ██   ║
+║ ██░░░██░██░░  ██░░ ║
+║ ██░░ ██░██░░  ██░░ ║
+║ ██░░ ██░██░░  ██░░ ║
+║ ██████ ░░██████ ░░ ║
+║   ░░░░░░   ░░░░░░  ║
+╚════════════════════╝
+```
+
+*Estimate space used by paths*
 
 [**English**](du.md) | [Español](../../../es/03-comandos/sistema/du.md)
 

@@ -1,4 +1,18 @@
-# date — Read and format the system time
+<!-- date — Read and format the system time -->
+<a name="date--read-and-format-the-system-time"></a>
+
+```text
+╔════════════════════════════════════╗
+║ ██████   █████  ████████ ███████   ║
+║ ██░░░██░██ ░░██░  ░██░░░░██░░░░░░░ ║
+║ ██░░ ██░███████░░  ██░░  █████     ║
+║ ██░░ ██░██░░░██░░  ██░░  ██░░░░░   ║
+║ ██████ ░██░░ ██░░  ██░░  ███████   ║
+║   ░░░░░░  ░░   ░░    ░░    ░░░░░░░ ║
+╚════════════════════════════════════╝
+```
+
+*Read and format the system time*
 
 [**English**](date.md) | [Español](../../../es/03-comandos/sistema/date.md)
 

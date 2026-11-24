@@ -1,4 +1,18 @@
-# date — Consultar y formatear la hora del sistema
+<!-- date — Consultar y formatear la hora del sistema -->
+<a name="date--consultar-y-formatear-la-hora-del-sistema"></a>
+
+```text
+╔════════════════════════════════════╗
+║ ██████   █████  ████████ ███████   ║
+║ ██░░░██░██ ░░██░  ░██░░░░██░░░░░░░ ║
+║ ██░░ ██░███████░░  ██░░  █████     ║
+║ ██░░ ██░██░░░██░░  ██░░  ██░░░░░   ║
+║ ██████ ░██░░ ██░░  ██░░  ███████   ║
+║   ░░░░░░  ░░   ░░    ░░    ░░░░░░░ ║
+╚════════════════════════════════════╝
+```
+
+*Consultar y formatear la hora del sistema*
 
 [English](../../../en/03-commands/system/date.md) | [**Español**](date.md)
 

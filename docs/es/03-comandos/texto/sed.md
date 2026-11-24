@@ -1,4 +1,18 @@
-# sed — Editar un flujo de texto
+<!-- sed — Editar un flujo de texto -->
+<a name="sed--editar-un-flujo-de-texto"></a>
+
+```text
+╔═══════════════════════════╗
+║ ███████ ███████ ██████    ║
+║ ██░░░░░░██░░░░░░██░░░██░  ║
+║ ███████ █████   ██░░ ██░░ ║
+║   ░░░██░██░░░░░ ██░░ ██░░ ║
+║ ███████░███████ ██████ ░░ ║
+║   ░░░░░░░ ░░░░░░░ ░░░░░░  ║
+╚═══════════════════════════╝
+```
+
+*Editar un flujo de texto*
 
 [English](../../../en/03-commands/text/sed.md) | [**Español**](sed.md)
 

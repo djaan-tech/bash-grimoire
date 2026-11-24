@@ -1,4 +1,18 @@
-# ps — Inspect a snapshot of processes
+<!-- ps — Inspect a snapshot of processes -->
+<a name="ps--inspect-a-snapshot-of-processes"></a>
+
+```text
+╔═══════════════════╗
+║ ██████  ███████   ║
+║ ██░░░██░██░░░░░░░ ║
+║ ██████ ░███████   ║
+║ ██░░░░░░  ░░░██░░ ║
+║ ██░░    ███████░░ ║
+║   ░░      ░░░░░░░ ║
+╚═══════════════════╝
+```
+
+*Inspect a snapshot of processes*
 
 [**English**](ps.md) | [Español](../../../es/03-comandos/procesos/ps.md)
 

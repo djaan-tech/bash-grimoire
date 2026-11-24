@@ -1,4 +1,18 @@
-# ps — Consultar los procesos en ejecución
+<!-- ps — Consultar los procesos en ejecución -->
+<a name="ps--consultar-los-procesos-en-ejecución"></a>
+
+```text
+╔═══════════════════╗
+║ ██████  ███████   ║
+║ ██░░░██░██░░░░░░░ ║
+║ ██████ ░███████   ║
+║ ██░░░░░░  ░░░██░░ ║
+║ ██░░    ███████░░ ║
+║   ░░      ░░░░░░░ ║
+╚═══════════════════╝
+```
+
+*Consultar los procesos en ejecución*
 
 [English](../../../en/03-commands/processes/ps.md) | [**Español**](ps.md)
 

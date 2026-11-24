@@ -1,4 +1,18 @@
-# ls — List directory contents
+<!-- ls — List directory contents -->
+<a name="ls--list-directory-contents"></a>
+
+```text
+╔═══════════════════╗
+║ ██      ███████   ║
+║ ██░░    ██░░░░░░░ ║
+║ ██░░    ███████   ║
+║ ██░░      ░░░██░░ ║
+║ ███████ ███████░░ ║
+║   ░░░░░░░ ░░░░░░░ ║
+╚═══════════════════╝
+```
+
+*List directory contents*
 
 [**English**](ls.md) | [Español](../../../es/03-comandos/archivos/ls.md)
 

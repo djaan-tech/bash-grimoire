@@ -1,4 +1,18 @@
-# rm — Eliminar entradas del directorio
+<!-- rm — Eliminar entradas del directorio -->
+<a name="rm--eliminar-entradas-del-directorio"></a>
+
+```text
+╔══════════════════════╗
+║ ██████  ███    ███   ║
+║ ██░░░██░████░ ████░░ ║
+║ ██████ ░██░████ ██░░ ║
+║ ██░░░██░██░░██░░██░░ ║
+║ ██░░ ██░██░░  ░░██░░ ║
+║   ░░   ░░ ░░      ░░ ║
+╚══════════════════════╝
+```
+
+*Eliminar entradas del directorio*
 
 [English](../../../en/03-commands/files/rm.md) | [**Español**](rm.md)
 

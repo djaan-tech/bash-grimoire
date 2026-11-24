@@ -1,4 +1,18 @@
-# df — Mostrar el uso de un sistema de archivos
+<!-- df — Mostrar el uso de un sistema de archivos -->
+<a name="df--mostrar-el-uso-de-un-sistema-de-archivos"></a>
+
+```text
+╔═══════════════════╗
+║ ██████  ███████   ║
+║ ██░░░██░██░░░░░░░ ║
+║ ██░░ ██░█████     ║
+║ ██░░ ██░██░░░░░   ║
+║ ██████ ░██░░      ║
+║   ░░░░░░  ░░      ║
+╚═══════════════════╝
+```
+
+*Mostrar el uso de un sistema de archivos*
 
 [English](../../../en/03-commands/system/df.md) | [**Español**](df.md)
 

@@ -1,4 +1,18 @@
-# cp — Copy files and directories
+<!-- cp — Copy files and directories -->
+<a name="cp--copy-files-and-directories"></a>
+
+```text
+╔═══════════════════╗
+║  ██████ ██████    ║
+║ ██ ░░░░░██░░░██░  ║
+║ ██░░    ██████ ░░ ║
+║ ██░░    ██░░░░░░  ║
+║  ██████ ██░░      ║
+║    ░░░░░░ ░░      ║
+╚═══════════════════╝
+```
+
+*Copy files and directories*
 
 [**English**](cp.md) | [Español](../../../es/03-comandos/archivos/cp.md)
 

@@ -1,4 +1,18 @@
-# wc — Contar líneas, palabras o bytes
+<!-- wc — Contar líneas, palabras o bytes -->
+<a name="wc--contar-líneas-palabras-o-bytes"></a>
+
+```text
+╔═════════════════════╗
+║ ██     ██  ██████   ║
+║ ██░░   ██░██ ░░░░░░ ║
+║ ██░░█  ██░██░░      ║
+║ ██░███░██░██░░      ║
+║  ███ ███ ░░██████   ║
+║    ░░░ ░░░   ░░░░░░ ║
+╚═════════════════════╝
+```
+
+*Contar líneas, palabras o bytes*
 
 [English](../../../en/03-commands/text/wc.md) | [**Español**](wc.md)
 

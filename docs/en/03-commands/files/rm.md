@@ -1,4 +1,18 @@
-# rm — Remove directory entries
+<!-- rm — Remove directory entries -->
+<a name="rm--remove-directory-entries"></a>
+
+```text
+╔══════════════════════╗
+║ ██████  ███    ███   ║
+║ ██░░░██░████░ ████░░ ║
+║ ██████ ░██░████ ██░░ ║
+║ ██░░░██░██░░██░░██░░ ║
+║ ██░░ ██░██░░  ░░██░░ ║
+║   ░░   ░░ ░░      ░░ ║
+╚══════════════════════╝
+```
+
+*Remove directory entries*
 
 [**English**](rm.md) | [Español](../../../es/03-comandos/archivos/rm.md)
 

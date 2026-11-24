@@ -1,4 +1,18 @@
-# find — Buscar en un árbol de directorios
+<!-- find — Buscar en un árbol de directorios -->
+<a name="find--buscar-en-un-árbol-de-directorios"></a>
+
+```text
+╔════════════════════════════════╗
+║ ███████ ██ ███    ██ ██████    ║
+║ ██░░░░░░██░████░  ██░██░░░██░  ║
+║ █████   ██░██░██░ ██░██░░ ██░░ ║
+║ ██░░░░░ ██░██░░██░██░██░░ ██░░ ║
+║ ██░░    ██░██░░ ████░██████ ░░ ║
+║   ░░      ░░ ░░   ░░░░ ░░░░░░  ║
+╚════════════════════════════════╝
+```
+
+*Buscar en un árbol de directorios*
 
 [English](../../../en/03-commands/files/find.md) | [**Español**](find.md)
 

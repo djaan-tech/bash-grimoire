@@ -1,4 +1,18 @@
-# du — Estimar el espacio ocupado por rutas
+<!-- du — Estimar el espacio ocupado por rutas -->
+<a name="du--estimar-el-espacio-ocupado-por-rutas"></a>
+
+```text
+╔════════════════════╗
+║ ██████  ██    ██   ║
+║ ██░░░██░██░░  ██░░ ║
+║ ██░░ ██░██░░  ██░░ ║
+║ ██░░ ██░██░░  ██░░ ║
+║ ██████ ░░██████ ░░ ║
+║   ░░░░░░   ░░░░░░  ║
+╚════════════════════╝
+```
+
+*Estimar el espacio ocupado por rutas*
 
 [English](../../../en/03-commands/system/du.md) | [**Español**](du.md)
 

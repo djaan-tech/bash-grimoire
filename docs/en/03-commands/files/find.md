@@ -1,4 +1,18 @@
-# find — Search a directory tree
+<!-- find — Search a directory tree -->
+<a name="find--search-a-directory-tree"></a>
+
+```text
+╔════════════════════════════════╗
+║ ███████ ██ ███    ██ ██████    ║
+║ ██░░░░░░██░████░  ██░██░░░██░  ║
+║ █████   ██░██░██░ ██░██░░ ██░░ ║
+║ ██░░░░░ ██░██░░██░██░██░░ ██░░ ║
+║ ██░░    ██░██░░ ████░██████ ░░ ║
+║   ░░      ░░ ░░   ░░░░ ░░░░░░  ║
+╚════════════════════════════════╝
+```
+
+*Search a directory tree*
 
 [**English**](find.md) | [Español](../../../es/03-comandos/archivos/find.md)
 

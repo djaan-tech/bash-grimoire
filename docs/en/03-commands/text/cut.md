@@ -1,4 +1,18 @@
-# cut — Extract columns or fields
+<!-- cut — Extract columns or fields -->
+<a name="cut--extract-columns-or-fields"></a>
+
+```text
+╔═════════════════════════════╗
+║  ██████ ██    ██ ████████   ║
+║ ██ ░░░░░██░░  ██░░ ░██░░░░░ ║
+║ ██░░    ██░░  ██░░  ██░░    ║
+║ ██░░    ██░░  ██░░  ██░░    ║
+║  ██████  ██████ ░░  ██░░    ║
+║    ░░░░░░  ░░░░░░     ░░    ║
+╚═════════════════════════════╝
+```
+
+*Extract columns or fields*
 
 [**English**](cut.md) | [Español](../../../es/03-comandos/texto/cut.md)
 

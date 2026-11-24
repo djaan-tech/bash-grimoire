@@ -1,4 +1,18 @@
-# tar — Crear o inspeccionar un archivo empaquetado
+<!-- tar — Crear o inspeccionar un archivo empaquetado -->
+<a name="tar--crear-o-inspeccionar-un-archivo-empaquetado"></a>
+
+```text
+╔════════════════════════════╗
+║ ████████  █████  ██████    ║
+║   ░██░░░░██ ░░██░██░░░██░  ║
+║    ██░░  ███████░██████ ░░ ║
+║    ██░░  ██░░░██░██░░░██░  ║
+║    ██░░  ██░░ ██░██░░ ██░░ ║
+║      ░░    ░░   ░░ ░░   ░░ ║
+╚════════════════════════════╝
+```
+
+*Crear o inspeccionar un archivo empaquetado*
 
 [English](../../../en/03-commands/system/tar.md) | [**Español**](tar.md)
 

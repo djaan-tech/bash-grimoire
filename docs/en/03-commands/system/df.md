@@ -1,4 +1,18 @@
-# df — Report file-system usage
+<!-- df — Report file-system usage -->
+<a name="df--report-file-system-usage"></a>
+
+```text
+╔═══════════════════╗
+║ ██████  ███████   ║
+║ ██░░░██░██░░░░░░░ ║
+║ ██░░ ██░█████     ║
+║ ██░░ ██░██░░░░░   ║
+║ ██████ ░██░░      ║
+║   ░░░░░░  ░░      ║
+╚═══════════════════╝
+```
+
+*Report file-system usage*
 
 [**English**](df.md) | [Español](../../../es/03-comandos/sistema/df.md)
 

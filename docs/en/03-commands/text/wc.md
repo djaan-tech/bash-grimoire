@@ -1,4 +1,18 @@
-# wc — Count lines, words or bytes
+<!-- wc — Count lines, words or bytes -->
+<a name="wc--count-lines-words-or-bytes"></a>
+
+```text
+╔═════════════════════╗
+║ ██     ██  ██████   ║
+║ ██░░   ██░██ ░░░░░░ ║
+║ ██░░█  ██░██░░      ║
+║ ██░███░██░██░░      ║
+║  ███ ███ ░░██████   ║
+║    ░░░ ░░░   ░░░░░░ ║
+╚═════════════════════╝
+```
+
+*Count lines, words or bytes*
 
 [**English**](wc.md) | [Español](../../../es/03-comandos/texto/wc.md)
 

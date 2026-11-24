@@ -1,4 +1,18 @@
-# awk — Procesar registros y campos
+<!-- awk — Procesar registros y campos -->
+<a name="awk--procesar-registros-y-campos"></a>
+
+```text
+╔═════════════════════════════╗
+║  █████  ██     ██ ██   ██   ║
+║ ██ ░░██░██░░   ██░██░░██ ░░ ║
+║ ███████░██░░█  ██░█████ ░░  ║
+║ ██░░░██░██░███░██░██░░██░   ║
+║ ██░░ ██░░███ ███ ░██░░ ██░  ║
+║   ░░   ░░  ░░░ ░░░  ░░   ░░ ║
+╚═════════════════════════════╝
+```
+
+*Procesar registros y campos*
 
 [English](../../../en/03-commands/text/awk.md) | [**Español**](awk.md)
 

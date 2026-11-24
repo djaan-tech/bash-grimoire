@@ -1,4 +1,18 @@
-# grep — Buscar líneas coincidentes
+<!-- grep — Buscar líneas coincidentes -->
+<a name="grep--buscar-líneas-coincidentes"></a>
+
+```text
+╔════════════════════════════════════╗
+║  ██████  ██████  ███████ ██████    ║
+║ ██ ░░░░░░██░░░██░██░░░░░░██░░░██░  ║
+║ ██░░ ███ ██████ ░█████   ██████ ░░ ║
+║ ██░░  ██░██░░░██░██░░░░░ ██░░░░░░  ║
+║  ██████ ░██░░ ██░███████ ██░░      ║
+║    ░░░░░░  ░░   ░░ ░░░░░░░ ░░      ║
+╚════════════════════════════════════╝
+```
+
+*Buscar líneas coincidentes*
 
 [English](../../../en/03-commands/text/grep.md) | [**Español**](grep.md)
 

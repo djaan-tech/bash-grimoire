@@ -1,4 +1,18 @@
-# ls — Listar el contenido de un directorio
+<!-- ls — Listar el contenido de un directorio -->
+<a name="ls--listar-el-contenido-de-un-directorio"></a>
+
+```text
+╔═══════════════════╗
+║ ██      ███████   ║
+║ ██░░    ██░░░░░░░ ║
+║ ██░░    ███████   ║
+║ ██░░      ░░░██░░ ║
+║ ███████ ███████░░ ║
+║   ░░░░░░░ ░░░░░░░ ║
+╚═══════════════════╝
+```
+
+*Listar el contenido de un directorio*
 
 [English](../../../en/03-commands/files/ls.md) | [**Español**](ls.md)
 
